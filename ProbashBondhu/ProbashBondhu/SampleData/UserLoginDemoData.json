@@ -1,0 +1,25 @@
+{
+    "Data": {
+        "UserData": {
+            "Is_Admin": false,
+            "Is_Agent": false,
+            "Id": 13,
+            "Name": "Test Doctor",
+            "Mobile": "01624156585",
+            "Username": "robinabdullah@yahoo.com",
+            "Primary_Specialization_Name": null,
+            "Secondary_Specialization_Name": null,
+            "Other_Specialization": "Other ",
+            "Living_City": "dhaka",
+            "Affiliated_Hospital": "Affiliated ",
+            "Country_Id": 1,
+            "Country": {
+                "Id": 1,
+                "Name": "Saudi Arab"
+            }
+        },
+        "NewAppointments": 1
+    },
+    "IsSuccess": true,
+    "Message": ""
+}

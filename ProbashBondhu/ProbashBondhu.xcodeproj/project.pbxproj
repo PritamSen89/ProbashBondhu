@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C78E96724CA0981004B798A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E96624CA0981004B798A /* AppDelegate.swift */; };
+		9C78E96B24CA0981004B798A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E96A24CA0981004B798A /* ViewController.swift */; };
+		9C78E96E24CA0981004B798A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E96C24CA0981004B798A /* Main.storyboard */; };
+		9C78E97024CA0985004B798A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E96F24CA0985004B798A /* Assets.xcassets */; };
+		9C78E97324CA0985004B798A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E97124CA0985004B798A /* LaunchScreen.storyboard */; };
+		9C78E99624CA0B19004B798A /* ConsultationDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E97B24CA0B19004B798A /* ConsultationDataModel.swift */; };
+		9C78E99724CA0B19004B798A /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E97C24CA0B19004B798A /* UserDataModel.swift */; };
+		9C78E99824CA0B19004B798A /* AppointmentPatientList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E97D24CA0B19004B798A /* AppointmentPatientList.swift */; };
+		9C78E99924CA0B19004B798A /* AppointmentStatusCountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E97E24CA0B19004B798A /* AppointmentStatusCountModel.swift */; };
+		9C78E99A24CA0B19004B798A /* AppointmentStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E97F24CA0B19004B798A /* AppointmentStatusModel.swift */; };
+		9C78E99B24CA0B19004B798A /* PBConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E98024CA0B19004B798A /* PBConstants.swift */; };
+		9C78E99C24CA0B19004B798A /* AppointmentPatientListDemoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E98224CA0B19004B798A /* AppointmentPatientListDemoData.json */; };
+		9C78E99D24CA0B19004B798A /* UserLoginDemoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E98324CA0B19004B798A /* UserLoginDemoData.json */; };
+		9C78E99E24CA0B19004B798A /* AppointmentStatusCountDemoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E98424CA0B19004B798A /* AppointmentStatusCountDemoData.json */; };
+		9C78E99F24CA0B19004B798A /* AppointmentStatusDemoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E98524CA0B19004B798A /* AppointmentStatusDemoData.json */; };
+		9C78E9A024CA0B19004B798A /* PBAppointmentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E98724CA0B19004B798A /* PBAppointmentManager.swift */; };
+		9C78E9A124CA0B19004B798A /* PBConsultationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E98824CA0B19004B798A /* PBConsultationManager.swift */; };
+		9C78E9A224CA0B19004B798A /* PBLoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E98924CA0B19004B798A /* PBLoginDataManager.swift */; };
+		9C78E9A324CA0B19004B798A /* radio_unchecked_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E98C24CA0B19004B798A /* radio_unchecked_icon.png */; };
+		9C78E9A424CA0B19004B798A /* calender_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E98D24CA0B19004B798A /* calender_icon.png */; };
+		9C78E9A524CA0B19004B798A /* ict_division_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E98E24CA0B19004B798A /* ict_division_logo.png */; };
+		9C78E9A624CA0B19004B798A /* radio_checked_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E98F24CA0B19004B798A /* radio_checked_icon.png */; };
+		9C78E9A724CA0B19004B798A /* govt_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E99024CA0B19004B798A /* govt_logo.png */; };
+		9C78E9A824CA0B19004B798A /* a2i_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E99124CA0B19004B798A /* a2i_logo.png */; };
+		9C78E9A924CA0B19004B798A /* probash_bondhu_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E99224CA0B19004B798A /* probash_bondhu_logo.png */; };
+		9C78E9AA24CA0B19004B798A /* burger_menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E99324CA0B19004B798A /* burger_menu_icon.png */; };
+		9C78E9AB24CA0B19004B798A /* close_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E99424CA0B19004B798A /* close_icon.png */; };
+		9C78E9AC24CA0B19004B798A /* down_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E99524CA0B19004B798A /* down_icon.png */; };
+		9C78E9AE24CA0B7D004B798A /* PBCommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E9AD24CA0B7D004B798A /* PBCommonExtensions.swift */; };
+		9C78E9BF24CA0C11004B798A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E9AF24CA0C10004B798A /* HomeViewController.swift */; };
+		9C78E9C024CA0C11004B798A /* PBLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E9B024CA0C11004B798A /* PBLoginViewController.swift */; };
+		9C78E9C124CA0C11004B798A /* PBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E9B124CA0C11004B798A /* PBLoginViewController.xib */; };
+		9C78E9C224CA0C11004B798A /* PatientListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E9B224CA0C11004B798A /* PatientListTableViewCell.xib */; };
+		9C78E9C324CA0C11004B798A /* PBConsultationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E9B324CA0C11004B798A /* PBConsultationViewController.xib */; };
+		9C78E9C424CA0C11004B798A /* DrawerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E9B424CA0C11004B798A /* DrawerProtocol.swift */; };
+		9C78E9C524CA0C11004B798A /* DrawerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E9B524CA0C11004B798A /* DrawerCell.xib */; };
+		9C78E9C624CA0C11004B798A /* DrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E9B624CA0C11004B798A /* DrawerView.swift */; };
+		9C78E9C724CA0C11004B798A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E9B724CA0C11004B798A /* HomeViewController.xib */; };
+		9C78E9C824CA0C11004B798A /* PatientListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E9B824CA0C11004B798A /* PatientListTableViewCell.swift */; };
+		9C78E9C924CA0C11004B798A /* PBConsultationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E9B924CA0C11004B798A /* PBConsultationViewController.swift */; };
+		9C78E9CA24CA0C11004B798A /* PatientListHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E9BA24CA0C11004B798A /* PatientListHeaderView.xib */; };
+		9C78E9CB24CA0C11004B798A /* AppointmentTypesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E9BB24CA0C11004B798A /* AppointmentTypesTableViewCell.swift */; };
+		9C78E9CC24CA0C11004B798A /* PatientListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E9BC24CA0C11004B798A /* PatientListHeaderView.swift */; };
+		9C78E9CD24CA0C11004B798A /* DrawerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C78E9BD24CA0C11004B798A /* DrawerCell.swift */; };
+		9C78E9CE24CA0C11004B798A /* AppointmentTypesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C78E9BE24CA0C11004B798A /* AppointmentTypesTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C78E96324CA0981004B798A /* ProbashBondhu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProbashBondhu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C78E96624CA0981004B798A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C78E96A24CA0981004B798A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C78E96D24CA0981004B798A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C78E96F24CA0985004B798A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C78E97224CA0985004B798A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C78E97424CA0985004B798A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C78E97B24CA0B19004B798A /* ConsultationDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultationDataModel.swift; sourceTree = "<group>"; };
+		9C78E97C24CA0B19004B798A /* UserDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		9C78E97D24CA0B19004B798A /* AppointmentPatientList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentPatientList.swift; sourceTree = "<group>"; };
+		9C78E97E24CA0B19004B798A /* AppointmentStatusCountModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentStatusCountModel.swift; sourceTree = "<group>"; };
+		9C78E97F24CA0B19004B798A /* AppointmentStatusModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentStatusModel.swift; sourceTree = "<group>"; };
+		9C78E98024CA0B19004B798A /* PBConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBConstants.swift; sourceTree = "<group>"; };
+		9C78E98224CA0B19004B798A /* AppointmentPatientListDemoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppointmentPatientListDemoData.json; sourceTree = "<group>"; };
+		9C78E98324CA0B19004B798A /* UserLoginDemoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = UserLoginDemoData.json; sourceTree = "<group>"; };
+		9C78E98424CA0B19004B798A /* AppointmentStatusCountDemoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppointmentStatusCountDemoData.json; sourceTree = "<group>"; };
+		9C78E98524CA0B19004B798A /* AppointmentStatusDemoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AppointmentStatusDemoData.json; sourceTree = "<group>"; };
+		9C78E98724CA0B19004B798A /* PBAppointmentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBAppointmentManager.swift; sourceTree = "<group>"; };
+		9C78E98824CA0B19004B798A /* PBConsultationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBConsultationManager.swift; sourceTree = "<group>"; };
+		9C78E98924CA0B19004B798A /* PBLoginDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBLoginDataManager.swift; sourceTree = "<group>"; };
+		9C78E98C24CA0B19004B798A /* radio_unchecked_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_unchecked_icon.png; sourceTree = "<group>"; };
+		9C78E98D24CA0B19004B798A /* calender_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calender_icon.png; sourceTree = "<group>"; };
+		9C78E98E24CA0B19004B798A /* ict_division_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ict_division_logo.png; sourceTree = "<group>"; };
+		9C78E98F24CA0B19004B798A /* radio_checked_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_checked_icon.png; sourceTree = "<group>"; };
+		9C78E99024CA0B19004B798A /* govt_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = govt_logo.png; sourceTree = "<group>"; };
+		9C78E99124CA0B19004B798A /* a2i_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a2i_logo.png; sourceTree = "<group>"; };
+		9C78E99224CA0B19004B798A /* probash_bondhu_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = probash_bondhu_logo.png; sourceTree = "<group>"; };
+		9C78E99324CA0B19004B798A /* burger_menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burger_menu_icon.png; sourceTree = "<group>"; };
+		9C78E99424CA0B19004B798A /* close_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_icon.png; sourceTree = "<group>"; };
+		9C78E99524CA0B19004B798A /* down_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_icon.png; sourceTree = "<group>"; };
+		9C78E9AD24CA0B7D004B798A /* PBCommonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBCommonExtensions.swift; sourceTree = "<group>"; };
+		9C78E9AF24CA0C10004B798A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9C78E9B024CA0C11004B798A /* PBLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBLoginViewController.swift; sourceTree = "<group>"; };
+		9C78E9B124CA0C11004B798A /* PBLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PBLoginViewController.xib; sourceTree = "<group>"; };
+		9C78E9B224CA0C11004B798A /* PatientListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PatientListTableViewCell.xib; sourceTree = "<group>"; };
+		9C78E9B324CA0C11004B798A /* PBConsultationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PBConsultationViewController.xib; sourceTree = "<group>"; };
+		9C78E9B424CA0C11004B798A /* DrawerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerProtocol.swift; sourceTree = "<group>"; };
+		9C78E9B524CA0C11004B798A /* DrawerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerCell.xib; sourceTree = "<group>"; };
+		9C78E9B624CA0C11004B798A /* DrawerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerView.swift; sourceTree = "<group>"; };
+		9C78E9B724CA0C11004B798A /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		9C78E9B824CA0C11004B798A /* PatientListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientListTableViewCell.swift; sourceTree = "<group>"; };
+		9C78E9B924CA0C11004B798A /* PBConsultationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PBConsultationViewController.swift; sourceTree = "<group>"; };
+		9C78E9BA24CA0C11004B798A /* PatientListHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PatientListHeaderView.xib; sourceTree = "<group>"; };
+		9C78E9BB24CA0C11004B798A /* AppointmentTypesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentTypesTableViewCell.swift; sourceTree = "<group>"; };
+		9C78E9BC24CA0C11004B798A /* PatientListHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientListHeaderView.swift; sourceTree = "<group>"; };
+		9C78E9BD24CA0C11004B798A /* DrawerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerCell.swift; sourceTree = "<group>"; };
+		9C78E9BE24CA0C11004B798A /* AppointmentTypesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppointmentTypesTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C78E96024CA0981004B798A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C78E95A24CA0981004B798A = {
+			isa = PBXGroup;
+			children = (
+				9C78E96524CA0981004B798A /* ProbashBondhu */,
+				9C78E96424CA0981004B798A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C78E96424CA0981004B798A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C78E96324CA0981004B798A /* ProbashBondhu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C78E96524CA0981004B798A /* ProbashBondhu */ = {
+			isa = PBXGroup;
+			children = (
+				9C78E98624CA0B19004B798A /* DataManager */,
+				9C78E97A24CA0B19004B798A /* DataModel */,
+				9C78E98024CA0B19004B798A /* PBConstants.swift */,
+				9C78E9AD24CA0B7D004B798A /* PBCommonExtensions.swift */,
+				9C78E98B24CA0B19004B798A /* Resources */,
+				9C78E98124CA0B19004B798A /* SampleData */,
+				9C78E98A24CA0B19004B798A /* VC */,
+				9C78E96624CA0981004B798A /* AppDelegate.swift */,
+				9C78E96A24CA0981004B798A /* ViewController.swift */,
+				9C78E96C24CA0981004B798A /* Main.storyboard */,
+				9C78E96F24CA0985004B798A /* Assets.xcassets */,
+				9C78E97124CA0985004B798A /* LaunchScreen.storyboard */,
+				9C78E97424CA0985004B798A /* Info.plist */,
+			);
+			path = ProbashBondhu;
+			sourceTree = "<group>";
+		};
+		9C78E97A24CA0B19004B798A /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				9C78E97B24CA0B19004B798A /* ConsultationDataModel.swift */,
+				9C78E97C24CA0B19004B798A /* UserDataModel.swift */,
+				9C78E97D24CA0B19004B798A /* AppointmentPatientList.swift */,
+				9C78E97E24CA0B19004B798A /* AppointmentStatusCountModel.swift */,
+				9C78E97F24CA0B19004B798A /* AppointmentStatusModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		9C78E98124CA0B19004B798A /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				9C78E98224CA0B19004B798A /* AppointmentPatientListDemoData.json */,
+				9C78E98324CA0B19004B798A /* UserLoginDemoData.json */,
+				9C78E98424CA0B19004B798A /* AppointmentStatusCountDemoData.json */,
+				9C78E98524CA0B19004B798A /* AppointmentStatusDemoData.json */,
+			);
+			path = SampleData;
+			sourceTree = "<group>";
+		};
+		9C78E98624CA0B19004B798A /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				9C78E98724CA0B19004B798A /* PBAppointmentManager.swift */,
+				9C78E98824CA0B19004B798A /* PBConsultationManager.swift */,
+				9C78E98924CA0B19004B798A /* PBLoginDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		9C78E98A24CA0B19004B798A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				9C78E9BB24CA0C11004B798A /* AppointmentTypesTableViewCell.swift */,
+				9C78E9BE24CA0C11004B798A /* AppointmentTypesTableViewCell.xib */,
+				9C78E9BD24CA0C11004B798A /* DrawerCell.swift */,
+				9C78E9B524CA0C11004B798A /* DrawerCell.xib */,
+				9C78E9B424CA0C11004B798A /* DrawerProtocol.swift */,
+				9C78E9B624CA0C11004B798A /* DrawerView.swift */,
+				9C78E9AF24CA0C10004B798A /* HomeViewController.swift */,
+				9C78E9B724CA0C11004B798A /* HomeViewController.xib */,
+				9C78E9BC24CA0C11004B798A /* PatientListHeaderView.swift */,
+				9C78E9BA24CA0C11004B798A /* PatientListHeaderView.xib */,
+				9C78E9B824CA0C11004B798A /* PatientListTableViewCell.swift */,
+				9C78E9B224CA0C11004B798A /* PatientListTableViewCell.xib */,
+				9C78E9B924CA0C11004B798A /* PBConsultationViewController.swift */,
+				9C78E9B324CA0C11004B798A /* PBConsultationViewController.xib */,
+				9C78E9B024CA0C11004B798A /* PBLoginViewController.swift */,
+				9C78E9B124CA0C11004B798A /* PBLoginViewController.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		9C78E98B24CA0B19004B798A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C78E98C24CA0B19004B798A /* radio_unchecked_icon.png */,
+				9C78E98D24CA0B19004B798A /* calender_icon.png */,
+				9C78E98E24CA0B19004B798A /* ict_division_logo.png */,
+				9C78E98F24CA0B19004B798A /* radio_checked_icon.png */,
+				9C78E99024CA0B19004B798A /* govt_logo.png */,
+				9C78E99124CA0B19004B798A /* a2i_logo.png */,
+				9C78E99224CA0B19004B798A /* probash_bondhu_logo.png */,
+				9C78E99324CA0B19004B798A /* burger_menu_icon.png */,
+				9C78E99424CA0B19004B798A /* close_icon.png */,
+				9C78E99524CA0B19004B798A /* down_icon.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C78E96224CA0981004B798A /* ProbashBondhu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C78E97724CA0985004B798A /* Build configuration list for PBXNativeTarget "ProbashBondhu" */;
+			buildPhases = (
+				9C78E95F24CA0981004B798A /* Sources */,
+				9C78E96024CA0981004B798A /* Frameworks */,
+				9C78E96124CA0981004B798A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProbashBondhu;
+			productName = ProbashBondhu;
+			productReference = 9C78E96324CA0981004B798A /* ProbashBondhu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C78E95B24CA0981004B798A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Pritam;
+				TargetAttributes = {
+					9C78E96224CA0981004B798A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9C78E95E24CA0981004B798A /* Build configuration list for PBXProject "ProbashBondhu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C78E95A24CA0981004B798A;
+			productRefGroup = 9C78E96424CA0981004B798A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C78E96224CA0981004B798A /* ProbashBondhu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C78E96124CA0981004B798A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C78E97324CA0985004B798A /* LaunchScreen.storyboard in Resources */,
+				9C78E97024CA0985004B798A /* Assets.xcassets in Resources */,
+				9C78E9C324CA0C11004B798A /* PBConsultationViewController.xib in Resources */,
+				9C78E9A524CA0B19004B798A /* ict_division_logo.png in Resources */,
+				9C78E99E24CA0B19004B798A /* AppointmentStatusCountDemoData.json in Resources */,
+				9C78E9A724CA0B19004B798A /* govt_logo.png in Resources */,
+				9C78E9A324CA0B19004B798A /* radio_unchecked_icon.png in Resources */,
+				9C78E9C524CA0C11004B798A /* DrawerCell.xib in Resources */,
+				9C78E9A824CA0B19004B798A /* a2i_logo.png in Resources */,
+				9C78E99C24CA0B19004B798A /* AppointmentPatientListDemoData.json in Resources */,
+				9C78E9AC24CA0B19004B798A /* down_icon.png in Resources */,
+				9C78E9A924CA0B19004B798A /* probash_bondhu_logo.png in Resources */,
+				9C78E99D24CA0B19004B798A /* UserLoginDemoData.json in Resources */,
+				9C78E9AA24CA0B19004B798A /* burger_menu_icon.png in Resources */,
+				9C78E96E24CA0981004B798A /* Main.storyboard in Resources */,
+				9C78E9A624CA0B19004B798A /* radio_checked_icon.png in Resources */,
+				9C78E9A424CA0B19004B798A /* calender_icon.png in Resources */,
+				9C78E99F24CA0B19004B798A /* AppointmentStatusDemoData.json in Resources */,
+				9C78E9C124CA0C11004B798A /* PBLoginViewController.xib in Resources */,
+				9C78E9CE24CA0C11004B798A /* AppointmentTypesTableViewCell.xib in Resources */,
+				9C78E9C224CA0C11004B798A /* PatientListTableViewCell.xib in Resources */,
+				9C78E9AB24CA0B19004B798A /* close_icon.png in Resources */,
+				9C78E9C724CA0C11004B798A /* HomeViewController.xib in Resources */,
+				9C78E9CA24CA0C11004B798A /* PatientListHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C78E95F24CA0981004B798A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C78E9CD24CA0C11004B798A /* DrawerCell.swift in Sources */,
+				9C78E9A024CA0B19004B798A /* PBAppointmentManager.swift in Sources */,
+				9C78E99724CA0B19004B798A /* UserDataModel.swift in Sources */,
+				9C78E9AE24CA0B7D004B798A /* PBCommonExtensions.swift in Sources */,
+				9C78E9A124CA0B19004B798A /* PBConsultationManager.swift in Sources */,
+				9C78E96B24CA0981004B798A /* ViewController.swift in Sources */,
+				9C78E99A24CA0B19004B798A /* AppointmentStatusModel.swift in Sources */,
+				9C78E99B24CA0B19004B798A /* PBConstants.swift in Sources */,
+				9C78E9CC24CA0C11004B798A /* PatientListHeaderView.swift in Sources */,
+				9C78E9C924CA0C11004B798A /* PBConsultationViewController.swift in Sources */,
+				9C78E99824CA0B19004B798A /* AppointmentPatientList.swift in Sources */,
+				9C78E9C824CA0C11004B798A /* PatientListTableViewCell.swift in Sources */,
+				9C78E9C024CA0C11004B798A /* PBLoginViewController.swift in Sources */,
+				9C78E9C424CA0C11004B798A /* DrawerProtocol.swift in Sources */,
+				9C78E99924CA0B19004B798A /* AppointmentStatusCountModel.swift in Sources */,
+				9C78E9C624CA0C11004B798A /* DrawerView.swift in Sources */,
+				9C78E9A224CA0B19004B798A /* PBLoginDataManager.swift in Sources */,
+				9C78E96724CA0981004B798A /* AppDelegate.swift in Sources */,
+				9C78E9CB24CA0C11004B798A /* AppointmentTypesTableViewCell.swift in Sources */,
+				9C78E9BF24CA0C11004B798A /* HomeViewController.swift in Sources */,
+				9C78E99624CA0B19004B798A /* ConsultationDataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C78E96C24CA0981004B798A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C78E96D24CA0981004B798A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C78E97124CA0985004B798A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C78E97224CA0985004B798A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C78E97524CA0985004B798A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C78E97624CA0985004B798A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C78E97824CA0985004B798A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JKK54256QL;
+				INFOPLIST_FILE = ProbashBondhu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pri.ProbashBondhu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C78E97924CA0985004B798A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JKK54256QL;
+				INFOPLIST_FILE = ProbashBondhu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pri.ProbashBondhu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C78E95E24CA0981004B798A /* Build configuration list for PBXProject "ProbashBondhu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C78E97524CA0985004B798A /* Debug */,
+				9C78E97624CA0985004B798A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C78E97724CA0985004B798A /* Build configuration list for PBXNativeTarget "ProbashBondhu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C78E97824CA0985004B798A /* Debug */,
+				9C78E97924CA0985004B798A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C78E95B24CA0981004B798A /* Project object */;
+}

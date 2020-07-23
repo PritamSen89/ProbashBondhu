@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PatientListHeaderView" customModule="Probash_Bondhu" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Options" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zY9-qO-71p">
+                    <rect key="frame" x="5" y="0.0" width="60" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="uYG-Ph-7Me"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1H-FF-8ih">
+                    <rect key="frame" x="349" y="0.0" width="60" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="4gp-Mm-XpL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mbV-rI-SFr">
+                    <rect key="frame" x="284" y="0.0" width="60" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="PxS-h8-d8B"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6S-05-wtU">
+                    <rect key="frame" x="70" y="0.0" width="209" height="50"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="zY9-qO-71p" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0O9-am-3Iv"/>
+                <constraint firstItem="r1H-FF-8ih" firstAttribute="leading" secondItem="mbV-rI-SFr" secondAttribute="trailing" constant="5" id="8C9-yg-gpq"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="mbV-rI-SFr" secondAttribute="bottom" id="Ar7-lh-CmO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="d6S-05-wtU" secondAttribute="bottom" id="Jte-Nm-Upk"/>
+                <constraint firstItem="r1H-FF-8ih" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="OJj-S4-T0i"/>
+                <constraint firstItem="mbV-rI-SFr" firstAttribute="leading" secondItem="d6S-05-wtU" secondAttribute="trailing" constant="5" id="PTJ-ls-cZd"/>
+                <constraint firstAttribute="trailing" secondItem="r1H-FF-8ih" secondAttribute="trailing" constant="5" id="UGn-Bb-Ozh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="r1H-FF-8ih" secondAttribute="bottom" id="eFC-1W-KFb"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="zY9-qO-71p" secondAttribute="bottom" id="hBv-dY-d2c"/>
+                <constraint firstItem="zY9-qO-71p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="het-oi-lw2"/>
+                <constraint firstItem="d6S-05-wtU" firstAttribute="leading" secondItem="zY9-qO-71p" secondAttribute="trailing" constant="5" id="igp-VM-BZO"/>
+                <constraint firstItem="d6S-05-wtU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kYz-hP-ZJS"/>
+                <constraint firstItem="mbV-rI-SFr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="oRJ-Wj-2gp"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="137.68115942028987" y="79.6875"/>
+        </view>
+    </objects>
+</document>

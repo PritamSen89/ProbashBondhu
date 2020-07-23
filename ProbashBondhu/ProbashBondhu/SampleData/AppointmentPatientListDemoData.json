@@ -1,0 +1,50 @@
+{
+    "Data": [
+        {
+            "Id": 1,
+            "Patient_Id": 1,
+            "Doctor_Id": 13,
+            "Appointment_Time": null,
+            "Appointment_Status_Id": 1,
+            "Prescription": null,
+            "Remarks": "hh",
+            "Problems": "back pain",
+            "Patient": {
+                "Id": 0,
+                "Name": "Shuvro",
+                "Age": 45,
+                "Gender": 1,
+                "Location": "Jeddah",
+                "Mobile": "01919090000",
+                "Country_Id": 1,
+                "Remarks": null,
+                "Flag": null,
+                "Gender_List": {
+                    "Id": 1,
+                    "Name": "Male"
+                }
+            },
+            "Appointment_Status": {
+                "Id": 1,
+                "Name": "Waiting",
+                "Priority": 1
+            },
+            "User": {
+                "Id": 13,
+                "Name": "Test Doctor",
+                "Mobile": "01624156585",
+                "Username": "robinabdullah@yahoo.com",
+                "Primary_Specialization_Name": "Burn & Plastic\n",
+                "Secondary_Specialization_Name": null,
+                "Other_Specialization": "Other ",
+                "Living_City": "dhaka",
+                "Affiliated_Hospital": "Affiliated ",
+                "Country_Id": 0,
+                "Country": null
+            },
+            "Created_On": "2020-04-26T11:32:52.507"
+        }
+    ],
+    "IsSuccess": true,
+    "Message": ""
+}

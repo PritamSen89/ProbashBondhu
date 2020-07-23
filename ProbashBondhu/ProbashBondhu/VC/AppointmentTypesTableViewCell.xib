@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="appointment_type_cell_id" id="KGk-i7-Jjw" customClass="AppointmentTypesTableViewCell" customModule="ProbashBondhu" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbW-2u-b9U">
+                        <rect key="frame" x="38" y="0.0" width="48" height="44"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZXp-G0-M5j">
+                        <rect key="frame" x="91" y="4" width="36" height="36"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qtq-Wv-rHf">
+                                <rect key="frame" x="0.0" y="0.0" width="36" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Qtq-Wv-rHf" firstAttribute="top" secondItem="ZXp-G0-M5j" secondAttribute="top" id="QDx-ZG-aar"/>
+                            <constraint firstAttribute="bottom" secondItem="Qtq-Wv-rHf" secondAttribute="bottom" id="YeJ-0c-QZG"/>
+                            <constraint firstItem="Qtq-Wv-rHf" firstAttribute="leading" secondItem="ZXp-G0-M5j" secondAttribute="leading" id="aNw-Us-ryC"/>
+                            <constraint firstAttribute="trailing" secondItem="Qtq-Wv-rHf" secondAttribute="trailing" id="aa1-bN-BRD"/>
+                            <constraint firstAttribute="width" secondItem="ZXp-G0-M5j" secondAttribute="height" multiplier="1:1" id="ip2-HE-gCZ"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1JF-OM-3YK">
+                        <rect key="frame" x="5" y="8" width="28" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="0Kc-X2-VFY"/>
+                            <constraint firstAttribute="width" secondItem="1JF-OM-3YK" secondAttribute="height" multiplier="1:1" id="hHH-uV-a4Q"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <state key="normal" image="radio_unchecked_icon.png"/>
+                        <connections>
+                            <action selector="onRadioBtnPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Efa-XJ-HMi"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="rbW-2u-b9U" secondAttribute="bottom" id="DpY-a7-Bch"/>
+                    <constraint firstItem="rbW-2u-b9U" firstAttribute="leading" secondItem="1JF-OM-3YK" secondAttribute="trailing" constant="5" id="O4b-wF-IeE"/>
+                    <constraint firstItem="1JF-OM-3YK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="Y5a-tk-oOU"/>
+                    <constraint firstItem="ZXp-G0-M5j" firstAttribute="leading" secondItem="rbW-2u-b9U" secondAttribute="trailing" constant="5" id="Zwi-nO-vvP"/>
+                    <constraint firstItem="rbW-2u-b9U" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="cNO-F5-tQK"/>
+                    <constraint firstItem="1JF-OM-3YK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="eUY-xd-u5C"/>
+                    <constraint firstItem="ZXp-G0-M5j" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="hHx-Ez-0jh"/>
+                    <constraint firstAttribute="bottom" secondItem="ZXp-G0-M5j" secondAttribute="bottom" constant="4" id="xIf-Tl-gMY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="countLabel" destination="Qtq-Wv-rHf" id="sbW-HG-pXK"/>
+                <outlet property="countLabelView" destination="ZXp-G0-M5j" id="fny-SU-C0O"/>
+                <outlet property="radioBtn" destination="1JF-OM-3YK" id="uh0-Cu-yup"/>
+                <outlet property="typeLabel" destination="rbW-2u-b9U" id="2Xf-90-Ewg"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="79.6875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="radio_unchecked_icon.png" width="36" height="36"/>
+    </resources>
+</document>
